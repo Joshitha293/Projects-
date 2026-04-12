@@ -1,5 +1,19 @@
 # Tendon-Driven Prosthetic Hand Prototype
 
+Low-cost experimental prosthetic hand prototype validating tendon-driven finger actuation through quantitative testing.
+
+## Key Results
+- **90%** cylindrical grip success (18/20)
+- **40%** precision grip success (8/20)
+- **80%** repeatability across 10 cycles
+
+## Prototype Overview
+![Prototype](IMG_3917.jpg)
+
+*Figure 1: Experimental tendon-driven prosthetic hand prototype demonstrating multi-joint articulation and tendon-based actuation.*
+
+# Tendon-Driven Prosthetic Hand Prototype
+
 Low-cost experimental prototype investigating tendon-driven finger actuation and grasp performance through quantitative testing.
 
 ---
