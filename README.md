@@ -49,6 +49,11 @@ Developed and experimentally validated a low-cost tendon-driven prosthetic hand 
 The project focuses on evaluating biomechanical actuation principles and functional grasp performance through rapid prototyping and structured testing.
 
 ---
+## Context & Relevance
+
+Tendon-driven actuation is widely used in modern robotic and prosthetic hand design due to its ability to achieve lightweight, flexible, and human-like movement.
+
+This project represents a simplified experimental model of these systems, focusing on validating core principles such as force transmission, grasp reliability, and mechanical limitations.
 
 ## Objectives
 
@@ -174,8 +179,9 @@ Key performance limitations identified:
 - Reduce friction using guided tendon routing  
 - Improve structural rigidity  
 - Introduce controlled actuation (motor-based)  
-- Explore EMG-based control systems  
-
+- Explore EMG-based control systems
+  
+The current prototype establishes a functional baseline for tendon-driven actuation, providing a platform for progressive refinement toward higher precision and controlled actuation systems.
 ---
 
 ## Conclusion
