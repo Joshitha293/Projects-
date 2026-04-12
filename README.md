@@ -1,4 +1,12 @@
 # Tendon-Driven Prosthetic Hand Prototype
+## Repository Structure
+
+- `IMG_3917.jpg` – Main prototype image  
+- `IMG_3918.jpg` – Additional prototype view  
+- `IMG_3919.mov` – Demonstration video  
+- `prosthetic_hand_data.xlsx` – Raw experimental dataset  
+- `Analysis/` – Python-based data analysis  
+- `Data/` – Supporting project files  
 
 Low-cost experimental prosthetic hand prototype validating tendon-driven finger actuation through quantitative testing.
 
@@ -50,10 +58,22 @@ The project focuses on evaluating biomechanical actuation principles and functio
 - Identify mechanical limitations and improvement pathways  
 
 ---
-
 ## Prototype Development
+## Additional View
+
+![Side View](IMG_3918.jpg)
+
+*Figure 2: Side view highlighting structural layout, finger segmentation, and tendon routing.*
 
 The prototype was constructed using low-cost materials to enable rapid iteration and functional validation.
+
+### Design Approach:
+- Manual fabrication using lightweight materials  
+- Tendon-driven actuation system  
+- Multi-segment finger structure  
+
+### Engineering Rationale:
+Prioritised **functional testing and iteration speed** over structural precision to rapidly identify system limitations.
 
 ### Design Approach:
 - Manual fabrication using lightweight materials  
@@ -66,6 +86,11 @@ Prioritised **functional testing and iteration speed** over structural precision
 ---
 
 ## Additional Views
+## Demonstration Video
+
+Video file included in this repository: `IMG_3919.mov`
+
+This demonstrates tendon-driven finger motion and grasping behaviour during testing.
 
 ![Side View](IMG_3918.jpg)
 
@@ -91,15 +116,13 @@ Testing was conducted under controlled conditions:
 - 20 trials per test condition  
 - Binary outcome recording (Success / Failure)  
 
----
+## Results
 
-## Data & Results
-
-| Test Category | Result |
+| Test Category | Outcome |
 |--------------|--------|
-| Cylindrical Grip | **90%** |
-| Precision Grip | **40%** |
-| Repeatability | **80%** |
+| Cylindrical Grip Success | **90% (18/20)** |
+| Precision Grip Success | **40% (8/20)** |
+| Repeatability | **80% (8/10)** |
 
 ---
 
@@ -160,6 +183,8 @@ Key performance limitations identified:
 The system demonstrates functional viability for basic grasping tasks, with clearly defined limitations in precision and repeatability.  
 
 The project reflects an **experimental, data-driven engineering approach**, combining prototyping, testing, and iterative improvement.
+
+This project demonstrates early-stage validation of tendon-driven actuation for prosthetic systems, highlighting both functional capability and clearly defined mechanical limitations through structured experimental testing.
 
 ---
 
