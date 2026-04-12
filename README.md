@@ -1,13 +1,35 @@
 # Tendon-Driven Prosthetic Hand Prototype
 
+Low-cost experimental prototype investigating tendon-driven finger actuation and grasp performance through quantitative testing.
+
+---
+
+## Key Results
+
+- **90%** cylindrical grip success (18/20 trials)  
+- **40%** precision grip success (8/20 trials)  
+- **80%** repeatability across repeated cycles  
+
+---
+
+## Prototype Overview
+
+![Prototype - Top View](IMG_3917.jpg)
+
+*Figure 1: Experimental tendon-driven prosthetic hand demonstrating multi-joint articulation and tendon-based actuation.*
+
+---
+
 ## Overview
-Developed and experimentally validated a low-cost tendon-driven prosthetic hand to replicate human finger articulation (MCP, PIP, DIP joints). The project focuses on evaluating biomechanical actuation principles and functional grasp performance through rapid prototyping and quantitative testing.
 
-The system was designed as an experimental model to investigate force transmission, mechanical behaviour, and limitations of tendon-driven mechanisms.
+Developed and experimentally validated a low-cost tendon-driven prosthetic hand to replicate human finger articulation (MCP, PIP, DIP joints).  
 
-## Prototype Implementation
+The project focuses on evaluating biomechanical actuation principles and functional grasp performance through rapid prototyping and structured testing.
+
+---
 
 ## Objectives
+
 - Replicate coordinated multi-joint finger movement  
 - Achieve functional grasping capability  
 - Quantitatively evaluate system performance  
@@ -17,125 +39,117 @@ The system was designed as an experimental model to investigate force transmissi
 
 ## Prototype Development
 
-The prototype was constructed using low-cost materials to enable rapid iteration and functional validation of tendon-driven actuation.
+The prototype was constructed using low-cost materials to enable rapid iteration and functional validation.
 
 ### Design Approach:
-- Manual fabrication using lightweight materials for flexibility and ease of modification  
-- Tendon-based actuation system to simulate biological force transmission  
-- Multi-segment finger structure to approximate MCP, PIP, and DIP joint movement  
+- Manual fabrication using lightweight materials  
+- Tendon-driven actuation system  
+- Multi-segment finger structure  
 
 ### Engineering Rationale:
-The design prioritised **speed of iteration and functional testing** over structural precision, allowing rapid identification of performance limitations and system behaviour.
+Prioritised **functional testing and iteration speed** over structural precision to rapidly identify system limitations.
 
 ---
 
+## Additional Views
 
-### Key Features:
-- Multi-joint finger articulation  
-- Tendon-driven flexion mechanism  
-- Lightweight structure for rapid prototyping  
+![Side View](IMG_3918.jpg)
 
-### Observations:
-- Successfully demonstrates basic grasp mechanics  
-- Performance limited by material flexibility and friction in tendon routing  
-- Structural rigidity and control precision identified as key limitations  
+*Figure 2: Side view highlighting structural layout and finger segmentation.*
+
+---
+
+## Demonstration
+
+Video file included in repository:  
+`IMG_3919.mov`  
+
+*(Shows grasping behaviour and tendon-driven motion)*
 
 ---
 
 ## Experimental Methodology
 
-Testing was conducted to evaluate system performance under controlled conditions.
+Testing was conducted under controlled conditions:
 
-### Test Categories:
-1. Cylindrical Grip Performance  
-2. Precision Grip Performance  
-3. Repeatability  
-
-### Testing Setup:
 - Manual tendon actuation  
-- Standardised object types (cylindrical and small precision objects)  
-- Repeated trials to ensure consistency  
+- Standardised objects (cylindrical + precision)  
+- 20 trials per test condition  
+- Binary outcome recording (Success / Failure)  
 
 ---
 
-## Results
+## Data & Results
 
-### Cylindrical Grip Test
-- Trials: 20  
-- Successful grasps: 18  
-- **Success Rate: 90%**
-
-### Precision Grip Test
-- Trials: 20  
-- Successful grasps: 8  
-- **Success Rate: 40%**
-
-### Repeatability Test
-- Cycles: 10  
-- Consistent performance: 8 cycles  
-- **Repeatability: 80%**
+| Test Category | Result |
+|--------------|--------|
+| Cylindrical Grip | **90%** |
+| Precision Grip | **40%** |
+| Repeatability | **80%** |
 
 ---
 
-## Performance Analysis
+## Detailed Results
 
-The system demonstrates strong performance in power grip scenarios, with reduced effectiveness in precision tasks.
+### Cylindrical Grip
+- 18/20 successful grasps  
+- High reliability in power grip scenarios  
 
-### Key Findings:
-- High cylindrical grip success due to larger contact surface and lower positional sensitivity  
-- Reduced precision grip capability due to limited fine control and thumb positioning  
-- Variability in repeatability linked to mechanical inconsistencies and tendon tension variation  
+### Precision Grip
+- 8/20 successful grasps  
+- Limited by fine control and thumb positioning  
+
+### Repeatability
+- 8/10 consistent cycles  
+- Variability due to mechanical inconsistencies  
+
+---
+
+## Data Analysis
+
+Basic analysis performed using Excel and Python:
+
+- Calculated success rates  
+- Compared performance across test types  
+- Evaluated variability and consistency  
+
+Python script included in:
+`Analysis/data_analysis.py`
+
+Raw dataset:
+`prosthetic_hand_data.xlsx`
 
 ---
 
 ## Engineering Analysis
 
-Root cause analysis identified key system limitations:
+Key performance limitations identified:
 
-- **Frictional losses** in tendon routing reducing efficiency  
-- **Structural compliance** affecting stability and control  
-- **Thumb positioning limitations** restricting precision grip  
-- **Inconsistent tendon paths** leading to variable motion  
+- Friction in tendon routing reducing efficiency  
+- Structural compliance affecting stability  
+- Limited precision control capability  
+- Inconsistent tendon behaviour  
 
 ---
 
 ## Improvements & Future Work
 
-Based on analysis, the following improvements are proposed:
-
-- Integration of low-friction tendon guides  
-- Optimisation of tendon routing geometry  
-- Increased structural rigidity using improved materials  
-- Implementation of controlled actuation (motor or pulley-based systems)  
-- Exploration of EMG-based control for user-driven interaction  
-
----
-
-## Key Engineering Skills Demonstrated
-
-- Biomechanical system understanding  
-- Tendon-driven actuation modelling  
-- Experimental design and validation  
-- Quantitative performance analysis (Excel/Python)  
-- Root cause analysis and iterative improvement  
-- Systems-level engineering thinking  
-
----
-
-## Repository Structure
-
-- `/images` – Prototype images  
-- `/data` – Testing results  
-- `/analysis` – Data processing  
+- Reduce friction using guided tendon routing  
+- Improve structural rigidity  
+- Introduce controlled actuation (motor-based)  
+- Explore EMG-based control systems  
 
 ---
 
 ## Conclusion
 
-This project demonstrates the ability to design, test, and analyse a biomechanical system using a structured engineering approach. The results highlight both functional capability and clearly defined pathways for technical improvement, reflecting an iterative and evidence-driven development process.
+The system demonstrates functional viability for basic grasping tasks, with clearly defined limitations in precision and repeatability.  
+
+The project reflects an **experimental, data-driven engineering approach**, combining prototyping, testing, and iterative improvement.
 
 ---
 
 ## Author
+
 Joshithaa Prakash  
 Biomedical Engineering Student – University of Leicester  
