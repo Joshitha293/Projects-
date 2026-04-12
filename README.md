@@ -127,7 +127,7 @@ Based on analysis, the following improvements are proposed:
 
 - `/images` – Prototype images  
 - `/data` – Testing results  
-- `/analysis` – Data processing (if applicable)  
+- `/analysis` – Data processing  
 
 ---
 
