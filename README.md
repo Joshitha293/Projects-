@@ -5,7 +5,7 @@ Developed and experimentally validated a low-cost tendon-driven prosthetic hand 
 
 The system was designed as an experimental model to investigate force transmission, mechanical behaviour, and limitations of tendon-driven mechanisms.
 
----
+## Prototype Implementation
 
 ## Objectives
 - Replicate coordinated multi-joint finger movement  
@@ -29,7 +29,6 @@ The design prioritised **speed of iteration and functional testing** over struct
 
 ---
 
-## Prototype Implementation
 
 ### Key Features:
 - Multi-joint finger articulation  
