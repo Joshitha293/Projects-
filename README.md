@@ -4,7 +4,8 @@
 - `IMG_3917.jpg` – Main prototype image  
 - `IMG_3918.jpg` – Additional prototype view  
 - `IMG_3919.mov` – Demonstration video  
-- `prosthetic_hand_data.xlsx` – Raw experimental dataset  
+- `prosthetic_hand_data.xlsx` – Raw experimental dataset
+- 'prosthetic_hand_results_with_chart.xlsx' - Raw experimental dataset with chart 
 - `Analysis/` – Python-based data analysis  
 - `Data/` – Supporting project files  
 
@@ -160,8 +161,14 @@ Python script included in:
 
 Raw dataset:
 `prosthetic_hand_data.xlsx`
+'prosthetic_hand_results_with_chart.xlsx'
+
 
 ---
+### Data Visualisation
+
+Summary of results and performance comparison available in:
+`prosthetic_hand_results_with_chart.xlsx`
 
 ## Engineering Analysis
 
