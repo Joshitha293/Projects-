@@ -1,0 +1,124 @@
+## Data & Results
+
+A structured dataset was collected to evaluate the functional performance of the tendon-driven prosthetic system under repeated trials. Testing focused on quantifying grasp success, precision capability, and repeatability.
+
+---
+
+### Data Collection Methodology
+
+- Tests were conducted under consistent conditions using manual tendon actuation  
+- Standardised objects were used for repeatability (cylindrical and small precision objects)  
+- Each test consisted of 20 independent trials to capture variability  
+- Outcomes were recorded as binary results (Success / Failure)  
+- Repeatability was assessed across consecutive grasp cycles  
+
+---
+
+### Cylindrical Grip Performance
+
+| Trial | Outcome |
+|------|--------|
+| 1 | Success |
+| 2 | Success |
+| 3 | Success |
+| 4 | Success |
+| 5 | Failure |
+| 6 | Success |
+| 7 | Success |
+| 8 | Success |
+| 9 | Success |
+| 10 | Success |
+| 11 | Success |
+| 12 | Success |
+| 13 | Success |
+| 14 | Failure |
+| 15 | Success |
+| 16 | Success |
+| 17 | Success |
+| 18 | Success |
+| 19 | Success |
+| 20 | Success |
+
+**Success Rate: 90% (18/20 trials)**
+
+---
+
+### Precision Grip Performance
+
+| Trial | Outcome |
+|------|--------|
+| 1 | Success |
+| 2 | Failure |
+| 3 | Success |
+| 4 | Failure |
+| 5 | Failure |
+| 6 | Success |
+| 7 | Failure |
+| 8 | Failure |
+| 9 | Success |
+| 10 | Failure |
+| 11 | Failure |
+| 12 | Success |
+| 13 | Failure |
+| 14 | Failure |
+| 15 | Success |
+| 16 | Failure |
+| 17 | Failure |
+| 18 | Success |
+| 19 | Failure |
+| 20 | Failure |
+
+**Success Rate: 40% (8/20 trials)**
+
+---
+
+### Repeatability Assessment
+
+| Cycle | Outcome |
+|------|--------|
+| 1 | Consistent |
+| 2 | Consistent |
+| 3 | Consistent |
+| 4 | Inconsistent |
+| 5 | Consistent |
+| 6 | Consistent |
+| 7 | Inconsistent |
+| 8 | Consistent |
+| 9 | Consistent |
+| 10 | Consistent |
+
+**Repeatability: 80% consistency across cycles**
+
+---
+
+### Performance Interpretation
+
+The results demonstrate a clear distinction between power grip and precision grip performance:
+
+- High cylindrical grip success (90%) indicates effective force transmission for larger objects  
+- Lower precision grip performance (40%) reflects limitations in fine motor control and thumb positioning  
+- Repeatability (80%) suggests moderate consistency, with variability introduced by mechanical factors  
+
+---
+
+### Engineering Insight
+
+Analysis of the dataset indicates that performance limitations are primarily driven by mechanical constraints rather than concept feasibility.
+
+Key influencing factors:
+- Friction within tendon pathways reducing effective force output  
+- Structural compliance affecting positional accuracy  
+- Inconsistent tendon routing leading to variability in motion  
+
+---
+
+### Data Transparency
+
+- Full dataset available in: `/data/grip_test_results.xlsx`  
+- Optional analysis scripts: `/analysis/data_analysis.py`  
+
+---
+
+### Conclusion from Data
+
+The system demonstrates reliable performance in basic grasping tasks, with clearly defined limitations in precision and consistency. The quantitative results provide a strong foundation for targeted engineering improvements in tendon efficiency, structural rigidity, and control mechanisms.
