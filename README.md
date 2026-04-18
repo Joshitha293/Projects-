@@ -36,10 +36,9 @@ Each issue contains:
 - Testing and validation results
 
 ## Skills Demonstrated
-- CAD (SolidWorks)
-- Embedded Systems (Arduino, C++)
+- Embedded Systems (Arduino, C++, Python)
 - Signal Processing
-- Experimental Validation & Data Analysis
+- Experimental Validation & Data Analysis using Excel
 - Biomechanical Modelling
 
 ## Contact
